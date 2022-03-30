@@ -12,5 +12,9 @@ namespace TestGoogleCalendarAPI_MVC.Controllers
         {
             return View();
         }
+        public IActionResult CalindarEvent()
+        {
+            return View();
+        }
     }
 }
